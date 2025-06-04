@@ -1,1 +1,44 @@
 /* Стилизация аккордеона */
+.accordion {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.accordion__item {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin-bottom: 8px;
+    transition: height 500ms ease;
+}
+
+.accordion__item:last-child {
+    margin-bottom: 0px;
+}
+
+.accordion__title {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+.accordion__item[open] > .accordion__title {
+    color: var(--black);
+}
+
+.accordion__content {
+    font-family: 'Inter', sans-serif;
+    color: var(--grey-4);
+    padding: 16px 0 8px;
+    margin: 0;
+}
+
+/* скрываем треугольник для браузера Safari */
+.accordion__title::-webkit-details-marker {
+    display: none;
+}
+
+/* скрываем треугольник для браузера Google Chorme */
+.accordion__title::marker {
+    content: none;
+}

@@ -6,6 +6,7 @@
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
+@import '../../components/page-component/page-component.css';
 
 :root {
     --white: #ffffff;

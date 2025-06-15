@@ -4,9 +4,36 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
         <title>Modal</title>
+        <style>
+            .container-button {
+                padding: 30px;
+            }
+
+            .content {
+                width: 400px;
+                height: 3000px;
+                background: teal;
+            }
+        </style>
     </head>
     <body>
+        <div class="container-button">
+            <button class="button button_primary" id="modal-open">Open modal</button>
+        </div>
+        <div class="content"></div>
+        <div class="modal" id="modal">
+            <div class="modal__background"></div>
+            <div class="modal__window">
+                <h2 class="modal__title">Modal title</h2>
+                <p class="modal__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="modal__close-button" id="modal-close">
+                    <div class="modal__line"></div>
+                    <div class="modal__line"></div>
+                </div>
+            </div>
+        </div>
     </body>
     <script src="./index.js"></script> 
 </html>

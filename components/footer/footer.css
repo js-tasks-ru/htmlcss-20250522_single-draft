@@ -4,7 +4,6 @@
 }
 
 .footer_inner {
-    padding: 93px 0 55px;
     background: #f9fafc;
 }
 
@@ -18,7 +17,7 @@
     margin: 0 0 32px;
 }
 
-.footer__title_inner {
+.footer_inner .footer__title {
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.04em;

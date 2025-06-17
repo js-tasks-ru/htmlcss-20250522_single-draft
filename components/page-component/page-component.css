@@ -5,17 +5,6 @@
     background: #f9fafc;
 }
 
-.page-component__header {
-    padding-top: 82px;
-    background: var(--white);
-}
-
-.page-component__main {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 56px;
-}
-
 .page-component__footer {
     padding: 92px 0 55px;
 }

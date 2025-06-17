@@ -16,7 +16,7 @@
 
 .calendar__wrapper {
     position: relative;
-    padding-top: 89%;
+    padding-bottom: 100%;
 }
 
 .calendar__inner {
@@ -27,7 +27,7 @@
     left: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 1fr 8px repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     place-items: stretch;
 }
 

@@ -1,0 +1,22 @@
+.component {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+}
+
+.component__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+    margin: 32px 0 58px;
+}
+
+@media screen and (max-width: 375px) {
+    .component__title {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 32px 0 20px;
+    }
+}

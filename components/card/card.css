@@ -1,6 +1,52 @@
 .card {
+    display: grid;
+    grid-template-rows: 7fr 3fr;
     width: 350px;
     height: 367px;
     border-radius: 12px;
+    background: #fff;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+}
+
+.card__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+    margin: 18px 0px 6px;
+}
+
+.card__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--grey-4);
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 163px;
+        height: 231px;
+        border-radius: 8px;
+    }
+
+    .card__title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 13px 0px 0px;
+    }
+
+    .card__text {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--grey-3);
+    }
 }

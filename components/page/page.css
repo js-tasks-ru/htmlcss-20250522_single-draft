@@ -15,7 +15,7 @@
     background: #f9fafc;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .page_inner {
         background: #fff;
     }

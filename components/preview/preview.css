@@ -12,10 +12,10 @@
     gap: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .preview {
         border-bottom: none;
-        padding: 24px 0 26px;
+        padding: 24px 16px 26px;
     }
 
     .preview__cards {

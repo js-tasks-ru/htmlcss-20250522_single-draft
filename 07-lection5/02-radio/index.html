@@ -4,8 +4,51 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .container-radio {
+                padding: 30px;
+            }
+
+            .gap {
+                height: 10px;
+            }
+        </style>
     </head>
     <body>
+        <div class="container-radio">
+            <label class="radio">
+                <input class="radio__input" type="radio" name="test">
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__circle"></div>
+                    </div>
+                    <div class="radio__label">Default</div>
+                </div>
+            </label>
 
+            <div class="gap"></div>
+
+            <label class="radio">
+                <input class="radio__input" type="radio" name="test" checked>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__circle"></div>
+                    </div>
+                    <div class="radio__label">Selected</div>
+                </div>
+            </label>
+
+            <div class="gap"></div>
+
+            <label class="radio">
+                <input class="radio__input" type="radio" disabled>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__circle"></div>
+                    </div>
+                    <div class="radio__label">Disabled</div>
+                </div>
+            </label>
+        </div>
     </body>
 </html>

@@ -4,8 +4,57 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            .container-checkbox {
+                padding: 30px;
+            }
+
+            .gap {
+                height: 10px;
+            }
+        </style>
     </head>
     <body>
+        <div class="container-checkbox">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon" fill="none">
+                            <use href="../../assets/images/sprite.svg#check-mark">
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Default</div>
+                </div>
+            </label>
 
+            <div class="gap"></div>
+
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox" checked>
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon" fill="none">
+                            <use href="../../assets/images/sprite.svg#check-mark">
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Checked</div>
+                </div>
+            </label>
+
+            <div class="gap"></div>
+
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox" disabled>
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon" fill="none">
+                            <use href="../../assets/images/sprite.svg#check-mark">
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Disabled</div>
+                </div>
+            </label>
+        </div>
     </body>
 </html>
